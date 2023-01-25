@@ -14,7 +14,7 @@ function App() {
 		<div className="App">
 			<main>
 				<NavBar />
-				<Spacer height={"40px"} />
+				<Spacer height={"80px"} />
 				<h1 className="greeting"> Good Afternoon Derek </h1>
 				<Spacer height={"40px"} />
 
@@ -29,7 +29,7 @@ function App() {
 						<Card>
 							<CardBody display="flex" bgColor={"#49BEAA"}>
 								<p>Cycled into work</p>
-								<Checkbox ml="5" mx="10"></Checkbox>
+								<Checkbox ml="5" mx="10" colorScheme="red"></Checkbox>
 							</CardBody>
 						</Card>
 						<Spacer height={"20px"} />
