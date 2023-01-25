@@ -1,0 +1,9 @@
+.navContainer {
+  background-color: antiquewhite;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.logo {
+  height: 50px;
+}
