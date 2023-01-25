@@ -5,19 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
 
-function App() {
-  // 2. Wrap ChakraProvider at the root of your app
-  return (
-    <ChakraProvider>
-      <App />
-    </ChakraProvider>
-  );
-}
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider>
+      <App />
+    </ChakraProvider>
   </React.StrictMode>
 );
 
